@@ -1,0 +1,52 @@
+.Movie {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .banner {
+    position: relative;
+  }
+  
+  .banner__contents {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+  }
+  
+  .banner__title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .banner__buttons {
+    margin-top: 1rem;
+  }
+  
+  .banner__button {
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin-right: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .banner__description {
+    max-width: 600px;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+  }
+  
+  .cast {
+    margin-top: 2rem;
+  }
+  
+  .cast h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
